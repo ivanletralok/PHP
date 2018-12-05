@@ -4,12 +4,12 @@
     $color = $_GET['color'];
     $descripcion = $_GET['descripcion'];
 
-    echo $id;
-    echo "</br>";
-    echo $color;
-    echo "</br>";
-    echo $descripcion;
-    echo "</br>";
+    // echo $id;
+    // echo "</br>";
+    // echo $color;
+    // echo "</br>";
+    // echo $descripcion;
+    // echo "</br>";
 
     require "conexion.php";
     $query = 'update colores set color =?, descripcion=? where id=?';

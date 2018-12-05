@@ -4,7 +4,7 @@ require "conexion.php";
 
 $id = $_GET['id'];
 
-echo $id;
+// echo $id;
 
 $query = 'DELETE FROM colores WHERE  id = ?';
 $eliminar = $pdo->prepare($query);
